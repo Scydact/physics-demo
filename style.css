@@ -1,0 +1,48 @@
+html,
+body {
+    background: rgb(46, 50, 71);
+    background: black;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+#main {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#controls {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgb(37, 45, 61);
+    padding: 1em;
+    text-shadow: 1px 1px 2px black;
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.no-select {
+    user-select: none;
+}
+
+input[type="range"] {
+    width: 80%;
+}
